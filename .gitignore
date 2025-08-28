@@ -1,0 +1,58 @@
+
+# misc
+*.pdf
+
+# zip files
+*.zip
+*.gz
+*.tgz
+
+# verilog compilation
+*simv
+*.daidir
+*.key
+*.vdb
+vc_hdrs.h
+debug_bin
+csrc/
+urgReport/
+
+cov_report_*/
+
+# ignore the entire build/ folder
+build/
+
+# synthesis files
+*.vg
+*.rep
+*.ddc
+*.chk
+*.log
+*.syn
+*.db
+*.svf
+*.mr
+*.pvl
+*_svsim.sv
+
+# verdi
+verdi*
+novas*
+*fsdb*
+
+# program memory compilation
+*.elf
+*.mem
+*.dump
+*.dump_*
+
+# per-run output files
+*.out
+*.cpi
+*.wb
+*.ppln
+
+# ignore the output folder
+# don't ignore the correct_out folder
+output/
+!correct_out/*
